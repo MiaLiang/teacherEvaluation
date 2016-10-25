@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>教师测评系统后台登陆界面 </title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+    <link href="../css/validate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container" id="login" >
+        <div class="row">
+            <div class="col-xs-8">
+                <img src="../img/bg1.png">
+            </div>
+            <div class="col-xs-4">
+                <div class="panel panel-info back-login" id="login-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">教师测评系统登陆</h3></div>
+                    <div class="panel-body">
+                        <form role="form" method="get" id="login-form" action="mainpage.html">
+                            <div class="form-group">
+                                <label for="name" class="h4">用户名</label>
+                                <input name="name" id="name" class="form-control" type="text" placeholder="请输入用户名">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="passwd" class="h4">密　码</label>
+                                <input name="password" id="passwd" class="form-control" type="password" placeholder="请输入密码">
+                            </div>
+                            <div>
+                                <input class="btn btn-warning btn-block" type="submit" value="登陆">
+                                <div id="other">
+                                    <a href="#" id="zc">注册</a>
+                                    <a href="#" id="fp">忘记密码</a>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+
+<script src="../js/jquery.validate.min.js"></script>
+<script src="../js/login.js"></script>
+
+
+</body>
+</html>

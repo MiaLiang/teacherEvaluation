@@ -1,0 +1,29 @@
+/*登陆验证*/
+label.error {
+    color: red;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-top: 0.5em;
+    float: none;
+}
+@media screen and (orientation: portrait) {
+    label.error {
+        margin-left: 0;
+        display: block;
+    }
+}
+@media screen and (orientation: landscape) {
+    label.error {
+        display: inline-block;
+        margin-left: 2%;
+    }
+}
+em {
+    color: red;
+    font-weight: bold;
+    padding-right: .25em;
+}
+
+
+

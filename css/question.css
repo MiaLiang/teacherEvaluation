@@ -1,0 +1,70 @@
+
+/* 问题列表页 */
+#header{
+    background-color:#2aabff;
+    /*5d9cec
+4a89dc*/
+}
+#questionlist{
+    margin-top: 10%;
+}
+#questionlist a{
+    text-decoration: none;
+}
+.question{
+    margin: 6% 0;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+/* 底部导航栏 */
+#navbar{
+    background-color: #2aabd2;
+}
+#navbar a{
+    text-decoration: none;
+}
+#navbar div{
+    margin: 0;
+    padding: 6% 0;
+    border-right: 1px solid lightcyan;
+    text-align: center;
+}
+
+#navbar div a{
+    color: black;
+}
+
+/*问卷1*/
+.question-title{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 5%;
+}
+.opts{
+    margin: 3% 0;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.holder{
+    margin:50%;
+}
+
+/*底部被选中时*/
+.bright{
+    background-color: grey;
+    color: white;
+}
+.badge{
+    background-color: orange;
+    color: white;
+    position: absolute;
+    left: 70%;
+    top:10%;
+}
+
+body{
+    background-image: url(../img/bbg.jpg);
+    background-repeat: no-repeat;
+}

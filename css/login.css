@@ -1,0 +1,37 @@
+/* 登陆页面 */
+
+body{
+    background: #2aabff;
+    background-image: repeating-linear-gradient(30deg,
+    hsla(0,0%,100%,.1),
+    hsla(0,0%,100%,.1) 15px,
+    transparent 0, transparent 30px);
+}
+.font-login{
+    color:#fff;
+}
+.back-login{
+    color: #000000;
+}
+#login-panel .btn{
+    margin-top: 30px;
+    margin-bottom:15px;
+}
+#other{
+    margin-left: 20%;
+}
+#zc, #fp{
+    padding: 8%;
+}
+
+
+/* 后台的登陆页 */
+#login .panel{
+    opacity:.95;
+}
+#login img{
+    width:70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 100px;
+}

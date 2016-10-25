@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>问卷1题目</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/question.css" rel="stylesheet">
+    <link href="css/validate.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container-fluid">
+    <div id="header" class="row">
+        <div class="text-center">
+            <h1>请完成问卷1</h1>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1" id="questionlist">
+           <form role="form" id="question-form" method="get" action="questionlist.html">
+               <fieldset>
+                   <div class="question-title"><label>1、教学评价为师生调整教与学的行为提供客观依据．这体现了教学评价的什么功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q1" type="radio" value="a">A、诊断功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q1" type="radio" value="b">B、调控功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q1" type="radio" value="c">C、激励功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q1" type="radio" value="d">D、教学功能</label></div>
+
+               </fieldset>
+               <hr/>
+               <fieldset>
+                   <div class="question-title"><label>2、诊断陛评价和形成性评价是不同阶段的评价，以下陈述正确的是</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q2" type="radio" value="a">A、诊断性评价和形成性评价都是在教学过程中实旌。</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q2" type="radio" value="b">B、诊断性评价的范围比形成性评价广，包括认知、动作技能以及情感领域等。</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q2" type="radio" value="c">C、形成性评价一般是相对评价。</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q2" type="radio" value="d">D、诊断性评价比形成性评价进行得频繁，比如某课某单元结束后的小测验。</label></div>
+
+               </fieldset>
+             <hr/>
+               <fieldset>
+                   <div class="question-title"><label>3、教学评价为师生调整教与学的行为提供客观依据．这体现了教学评价的什么功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q3" type="radio" value="a">A、诊断功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q3" type="radio" value="b">B、调控功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q3" type="radio" value="c">C、激励功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q3" type="radio" value="d">D、教学功能</label></div>
+
+               </fieldset>
+               <hr/>
+               <fieldset>
+                   <div class="question-title"><label>4、教学评价为师生调整教与学的行为提供客观依据．这体现了教学评价的什么功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q4" type="radio" value="a">A、诊断功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q4" type="radio" value="b">B、调控功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q4" type="radio" value="c">C、激励功能</label></div>
+                   <div class="opts bg-info"><label class="btn-block"><input name="q4" type="radio" value="d">D、教学功能</label></div>
+               </fieldset>
+                <hr/>
+
+               <div>
+                   <input type="hidden" name="questionNum" value="question1">
+                   <input type="submit" class="btn btn-block btn-warning" value="提交">
+               </div>
+               <div class="holder"></div>
+           </form>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="navbar-fixed-bottom" id="navbar">
+            <div class="col-xs-4 h3"><a href="questionlist.html"><span class="glyphicon glyphicon-home"></span> 主页</a></div>
+            <div class="col-xs-4 h3  bright"><span class="bright" href="questionlist.html"><span class="glyphicon glyphicon-question-sign"></span> 问题</span><span id="counter" class="badge">3</span></div>
+            <div class="col-xs-4 h3"><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> 退出</a></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/remove.js"></script>
+<script src="js/question.js"></script>
+</body>
+</html>
